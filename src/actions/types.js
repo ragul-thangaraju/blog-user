@@ -1,0 +1,5 @@
+export const ACTION_TYPES = {
+  SET_AUTH_TOKENS: "SET_AUTH_TOKENS",
+  SET_USERS: "SET_USERS",
+  SET_POST: "SET_POST",
+};
