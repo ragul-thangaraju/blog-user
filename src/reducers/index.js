@@ -1,6 +1,5 @@
 import { combineReducers } from "redux";
 import { currentUser } from "./loginReducer";
-import { user } from "./userReducer";
 import { post } from "./postReducer";
 
 /**
@@ -8,6 +7,5 @@ import { post } from "./postReducer";
  */
 export default combineReducers({
   currentUser,
-  user,
   post,
 });
