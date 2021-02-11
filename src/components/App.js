@@ -36,7 +36,7 @@ class App extends Component {
             <React.Fragment>
               <ThemeProvider theme={theme}>
                 <Switch>
-                  <Route path={PATH.ADMINLOGIN} exact component={Dashboard} />
+                  <Route path={PATH.LOGIN} exact component={Dashboard} />
                   <Route path={PATH.DASHBOARD} exact component={Login} />
                   <Route path={PATH.POSTDETAIL} exact component={PostDetail} />
                 </Switch>

@@ -1,5 +1,5 @@
 export const PATH = {
-  ADMINLOGIN: "/",
+  LOGIN: "/",
   DASHBOARD: "/dashboard",
   APPUSERS: "/app-users",
   POSTDETAIL: "/p/:postId",

@@ -81,7 +81,7 @@ class Header extends Component {
             noWrap
             className={classes.toolbarTitle}
           >
-            <Link to={PATH.ADMINLOGIN}>Blog</Link>
+            <Link to={PATH.LOGIN}>Blog</Link>
           </Typography>
           {!isLoggedIn() ? (
             <Button

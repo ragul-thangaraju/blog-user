@@ -22,7 +22,7 @@ export default function Footer(props) {
     <footer className={classes.footer}>
       <Container maxWidth="lg">
         <Typography variant="h6" align="center" gutterBottom>
-          <Link to={PATH.ADMINLOGIN}>{title}</Link>
+          <Link to={PATH.LOGIN}>{title}</Link>
         </Typography>
       </Container>
     </footer>
